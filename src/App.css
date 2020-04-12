@@ -1,0 +1,31 @@
+.App {
+    padding: 40px 100px 20px 100px;
+}
+
+.navBar {
+    padding: 10px 4px;
+    display: flex;
+    alignItems: center;
+}
+
+.searchInput {
+    marginLeft: 10px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+.dashboard {
+    padding-top: 40px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.note {
+    margin-right: 40px;
+    height: 200px;
+    width: 250px;
+}
+
+.iconButton {
+    padding: 10px;
+}
