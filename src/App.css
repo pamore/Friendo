@@ -1,5 +1,7 @@
 .App {
     padding: 40px 100px 20px 100px;
+    background: lightgrey;
+    height: 100vh;
 }
 
 .navBar {
@@ -16,12 +18,11 @@
 
 .dashboard {
     padding-top: 40px;
-    flex-wrap: wrap;
     display: flex;
 }
 
 .note {
-    margin-right: 40px;
+    margin: 20px;
     height: 200px;
     width: 250px;
 }
