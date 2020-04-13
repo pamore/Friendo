@@ -1,9 +1,14 @@
 .App {
-    padding: 40px 100px 20px 100px;
     background: lightgrey;
     height: 100vh;
 }
+.appView {
+    padding: 40px 100px 20px 100px;
+}
 
+.appTitle {
+    flex-grow: 1;
+}
 .navBar {
     padding: 10px 4px;
     display: flex;

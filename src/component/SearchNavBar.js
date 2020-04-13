@@ -2,16 +2,12 @@ import React, {useState} from "react";
 import IconButton from "@material-ui/core/IconButton";
 import Paper from "@material-ui/core/Paper";
 import InputBase from "@material-ui/core/InputBase";
-import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 
 export default function SearchNavBar() {
     const [searchValue, setSearchValue] = useState("");
     return (
         <Paper component="form" className="navBar">
-            <IconButton className="iconButton">
-                <MenuIcon/>
-            </IconButton>
             <InputBase
                 placeholder="Search..."
                 className="searchInput"
