@@ -7,11 +7,11 @@
 .navBar {
     padding: 10px 4px;
     display: flex;
-    alignItems: center;
+    align-items: center;
 }
 
 .searchInput {
-    marginLeft: 10px;
+    margin-left: 10px;
     padding-left: 20px;
     flex: 1;
 }
@@ -25,6 +25,7 @@
     margin: 20px;
     height: 200px;
     width: 250px;
+    padding-left: 10px;
 }
 
 .iconButton {
